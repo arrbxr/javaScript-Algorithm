@@ -5,4 +5,4 @@ function palindrome(str) {
     return str === reversed;
 }
 
-console.log(palindrome('ab dba'));
+console.log(palindrome('abba'));
