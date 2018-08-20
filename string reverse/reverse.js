@@ -28,6 +28,7 @@ const reverse = (str) => {
 
 const reverse = (str) => {
     return str.split('').reduce((reversed, char) => {
+        debugger;
        return  char + reversed;
     }, '');
 };
